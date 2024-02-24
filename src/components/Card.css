@@ -1,0 +1,140 @@
+.backgroundDiv {
+    background-color: #001236;
+    height: 450px;
+    width: 275px;
+    border-radius: 40px;
+}
+
+.profileDiv {
+    padding: 20px 80px;
+}
+
+#img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
+}
+
+.userName {
+    margin-left: 40px;
+}
+
+.passWord {
+    margin-left: 40px;
+}
+
+#userNameId {
+    border: none;
+    background-color: #001236;
+    color: #EEEEEE;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#passWordId {
+    border: none;
+    background-color: #001236;
+    color: #EEEEEE;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+#userNameId::placeholder,
+#passWordId::placeholder {
+    color: rgba(238, 238, 238, 0.50);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 200;
+    /* Center the text horizontally */
+    line-height: 100px;
+    /* Set line-height to match the height of the input box */
+    text-decoration-line: underline;
+
+    /* Remove box outline */
+    border: none;
+
+    /* Remove outline on focus */
+    outline: none;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#sbmt {
+    background-color: skyblue;
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(198, 190, 190);
+}
+
+#sbmt:hover {
+    background-color: antiquewhite;
+
+}
+
+h4 {
+    color: rgba(238, 238, 238, 0.50);
+}
+
+.signUpAndForgot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.mainBack {
+    height: 90vh;
+    width: 65vw;
+    border-radius: 40px;
+    background-color: #193878;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.errorBox {
+    height: 1rem;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3{
+    color: red;
+}
+
+.backAvatar{
+    background-color: #001236;
+    height: 450px;
+    width: 275px;
+    border-radius: 40px;
+    margin-left: 01rem;
+}

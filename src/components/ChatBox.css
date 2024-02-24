@@ -1,0 +1,44 @@
+.chatBox {
+    width: 100%;
+}
+
+.messages {
+    height: 78%;
+    background-color: #22386576;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Hide scrollbar */
+.messages::-webkit-scrollbar {
+    display: none;
+}
+
+.userInput {
+    width: 100%;
+    display: flex;
+}
+
+#msgInputBox {
+    flex: 1;
+    height: 50px;
+    background-color: #617DA5;
+    outline: none;
+    border: none;
+    font-size: large;
+    padding-left: 10px;
+}
+
+.sbmtBtn {
+    width: 20%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    background-color: #170114;
+    color: white;
+}
+
+.sbmtBtn:hover {
+    background-color: #182c3f;
+}

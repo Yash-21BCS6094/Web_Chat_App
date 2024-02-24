@@ -1,0 +1,69 @@
+.mainBoard2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #193878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workBoard2 {
+    height: 95vh;
+    width: 90vw;
+    background-color: #2B477F;
+    border-radius: 3rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.avatarFile {
+    margin-top: 2rem;
+}
+
+
+#inputField {
+    margin-top: 2rem;
+    background-color: #D9D9D9;
+    width: 22rem;
+    height: 4.3125rem;
+    border-radius: 1.25rem;
+    border: none;
+    text-align: center;
+    font-size: large;
+
+}
+
+#nameField {
+    margin-top: 2rem;
+    background-color: #D9D9D9;
+    width: 14rem;
+    height: 4.3125rem;
+    border-radius: 1.25rem;
+    border: none;
+    text-align: center;
+    font-size: large;
+}
+
+#sbmt2{
+    background-color: skyblue;
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(198, 190, 190);
+    margin-top: 1.2rem;
+}
+
+#sbmt2:hover{
+    background-color: navajowhite;
+}
+
+.radioButton{
+    display: 'flex';
+    align-items: 'center' ;
+    margin-top: 1rem;
+} 

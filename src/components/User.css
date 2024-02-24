@@ -1,0 +1,33 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 1rem;
+    border-bottom: solid #000000;
+
+}
+
+.user:hover {
+    background-color: #1e6b87;
+}
+
+.userData {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.userIcon {
+    font-size: 3rem;
+}
+
+.addIcon {
+    font-size: 1.5rem;
+    margin-left: 5rem;
+}
